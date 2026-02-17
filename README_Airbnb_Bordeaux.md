@@ -19,8 +19,8 @@ This project is a **data visualization and analysis** of Airbnb listings in the 
 |---|---|---|
 | `listings.csv` | All Airbnb listings with price, type, location, availability | 10 438 |
 | `reviews.csv` | Guest reviews with listing ID and date | 180 209 |
-| `neighbourhoods.csv` | Neighbourhood and commune mapping | — |
-| `population.xlsx` | Population data by commune | — |
+| `neighbourhoods.csv` | Neighbourhood and commune mapping | 63 |
+| `population.xlsx` | Population data by commune | 156 |
 
 ---
 
