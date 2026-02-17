@@ -116,7 +116,7 @@ The data was loaded and transformed using a **Qlik Load Script** structured in 3
 ## 🗺️ Dashboards
 
 ### Dashboard 1 — Market Overview
-![Dashboard 1](DASHBOARD AIRBNB.PNG)
+![Dashboard 1](DASHBOARD_AIRBNB.PNG)
 
 - KPI bar (total listings, avg price, reviews, availability, occupancy, revenue)
 - Bar chart: listing distribution by room type
@@ -126,7 +126,7 @@ The data was loaded and transformed using a **Qlik Load Script** structured in 3
 - Filter panel: Quartier, Commune, year/month of reviews
 
 ### Dashboard 2 — Geographic Map
-![Dashboard 2](DASHBOARD AIRBNB 2.PNG)
+![Dashboard 2](DASHBOARD_AIRBNB_2.PNG)
 
 - Same KPI bar
 - Interactive map of all Airbnb listings (OpenStreetMap)
