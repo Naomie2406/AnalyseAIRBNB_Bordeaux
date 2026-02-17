@@ -94,19 +94,8 @@ The data was loaded and transformed using a **Qlik Load Script** structured in 3
 - Estimated average annual revenue per listing: **~12 000 €**
 - Listings with zero revenue were excluded from the geographic map to avoid visual distortion
 
-### 5. Review Trends (2010–2018)
 
-| Year | Reviews |
-|---|---|
-| 2014 | 4 098 |
-| 2015 | 14 122 |
-| 2016 | 35 033 |
-| 2017 | 61 085 |
-| 2018 | 64 661 |
-
-> The Airbnb market in Bordeaux grew **exponentially** between 2014 and 2018, with reviews nearly doubling each year. This reflects both Airbnb's global growth and Bordeaux's rising tourist appeal (UNESCO World Heritage status, LGV high-speed rail opening in 2017).
-
-### 6. Host Behavior
+### 5. Host Behavior
 
 - **8 798 unique hosts** for 10 390 listings
 - **869 hosts** manage more than one listing — signs of professional short-term rental activity
