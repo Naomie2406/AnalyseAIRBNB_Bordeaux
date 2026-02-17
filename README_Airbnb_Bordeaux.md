@@ -1,4 +1,4 @@
-# 🏠 Airbnb Bordeaux — Data Analytics Dashboard (Qlik Sense)
+# 🏠 Airbnb Bordeaux - Data Analytics Dashboard (Qlik Sense)
 
 ![Qlik Sense](https://img.shields.io/badge/Qlik%20Sense-009845?style=for-the-badge&logo=qlik&logoColor=white)
 ![Dashboard](https://img.shields.io/badge/Dashboard-2%20views-red?style=for-the-badge)
@@ -83,7 +83,7 @@ The data was loaded and transformed using a **Qlik Load Script** structured in 3
 
 ### 3. Pricing Analysis
 
-- **Median price/night: 57 €** vs mean of 85 € — a right-skewed distribution driven by luxury outliers (max: 50 000 €)
+- **Median price/night: 57 €** vs mean of 85 € - a right-skewed distribution driven by luxury outliers (max: 50 000 €)
 - **Q1:** 40 € | **Q3:** 90 €
 - Most expensive communes: Mérignac (193 €/night avg), Saint-Aubin-de-Médoc (166 €), Bouliac (155 €)
 - The boxplot analysis confirms high price dispersion, especially for entire home/apt listings
@@ -98,24 +98,24 @@ The data was loaded and transformed using a **Qlik Load Script** structured in 3
 ### 5. Host Behavior
 
 - **8 798 unique hosts** for 10 390 listings
-- **869 hosts** manage more than one listing — signs of professional short-term rental activity
+- **869 hosts** manage more than one listing - signs of professional short-term rental activity
 - 87% of hosts manage a single listing, indicating a mixed market of occasional and professional renters
 
 ---
 
 ## 💡 Key Takeaways
 
-1. **Entire homes dominate (76%)** — raising questions about housing availability for long-term residents
+1. **Entire homes dominate (76%)** - raising questions about housing availability for long-term residents
 2. **Strong geographic concentration** in the city centre, while some suburban communes show higher average prices
 3. **Explosive growth from 2014 to 2018**, likely accelerated by Bordeaux's UNESCO listing and the LGV rail connection
-4. **High price dispersion** — the gap between median (57 €) and mean (85 €) signals a small number of premium listings skewing averages upward
+4. **High price dispersion** - the gap between median (57 €) and mean (85 €) signals a small number of premium listings skewing averages upward
 5. **Occupancy rate of ~31%** suggests moderate average demand, though central listings likely significantly outperform this average
 
 ---
 
 ## 🗺️ Dashboards
 
-### Dashboard 1 — Market Overview
+### Dashboard 1 - Market Overview
 ![Dashboard 1](DASHBOARD_AIRBNB.PNG)
 
 - KPI bar (total listings, avg price, reviews, availability, occupancy, revenue)
@@ -125,7 +125,7 @@ The data was loaded and transformed using a **Qlik Load Script** structured in 3
 - Boxplot: price distribution by room type and by neighbourhood
 - Filter panel: Quartier, Commune, year/month of reviews
 
-### Dashboard 2 — Geographic Map
+### Dashboard 2 - Geographic Map
 ![Dashboard 2](DASHBOARD_AIRBNB_2.PNG)
 
 - Same KPI bar
@@ -137,15 +137,15 @@ The data was loaded and transformed using a **Qlik Load Script** structured in 3
 
 ## 🔧 Tools & Technologies
 
-- **Qlik Sense** — data modeling, scripting, and dashboard creation
-- **Excel** — data cleaning and preparation
-- **OpenStreetMap** — base map for geographic visualization
+- **Qlik Sense** - data modeling, scripting, and dashboard creation
+- **Excel** - data cleaning and preparation
+- **OpenStreetMap** - base map for geographic visualization
 
 ---
 
 <!-- VERSION FRANÇAISE
 
-# 🏠 Airbnb Bordeaux — Dashboard Data Analytics (Qlik Sense)
+# 🏠 Airbnb Bordeaux - Dashboard Data Analytics (Qlik Sense)
 
 ## 📋 Présentation du projet
 
@@ -157,8 +157,8 @@ Ce projet est une analyse et visualisation de données des logements Airbnb dans
 |---|---|---|
 | listings.csv | Tous les logements Airbnb avec prix, type, localisation, disponibilité | 10 438 |
 | reviews.csv | Avis des voyageurs avec ID logement et date | 180 209 |
-| neighbourhoods.csv | Correspondance quartiers / communes | — |
-| population.xlsx | Données de population par commune | — |
+| neighbourhoods.csv | Correspondance quartiers / communes | - |
+| population.xlsx | Données de population par commune | - |
 
 ## 🛠️ Préparation des données (Script Qlik)
 
@@ -190,16 +190,16 @@ Onglet reviews_clean :
 ## 📈 Résultats & Analyse
 
 1. Répartition par type de logement
-   - Entire home/apt : 7 895 (76%) — 96,79 €/nuit en moyenne
-   - Private room : 2 420 (23%) — 48,99 €/nuit
-   - Shared room : 75 (1%) — 33,68 €/nuit
+   - Entire home/apt : 7 895 (76%) - 96,79 €/nuit en moyenne
+   - Private room : 2 420 (23%) - 48,99 €/nuit
+   - Shared room : 75 (1%) - 33,68 €/nuit
    Le marché est dominé par les logements entiers, ce qui peut impacter l'offre de logements pour les résidents permanents.
 
 2. Top quartiers
    Le Centre-ville concentre plus de 20% de l'offre (2 106 logements), suivi de Bordeaux Sud (1 541) et des Chartrons (1 019).
 
 3. Analyse des prix
-   - Médiane : 57 €/nuit vs moyenne 85 € — distribution asymétrique avec des valeurs extrêmes (max : 50 000 €)
+   - Médiane : 57 €/nuit vs moyenne 85 € - distribution asymétrique avec des valeurs extrêmes (max : 50 000 €)
    - Communes les plus chères : Mérignac (193 €), Saint-Aubin-de-Médoc (166 €), Bouliac (155 €)
    - Les boxplots confirment une forte dispersion des prix
 
@@ -213,7 +213,7 @@ Onglet reviews_clean :
    - 87% des hôtes ne gèrent qu'un seul logement
 
 ## 💡 Conclusions principales
-1. Les logements entiers dominent (76%) — impact potentiel sur le marché locatif résidentiel
+1. Les logements entiers dominent (76%) - impact potentiel sur le marché locatif résidentiel
 2. Forte concentration géographique au centre-ville
 3. Croissance explosive du marché entre 2014 et 2018
 4. Forte dispersion des prix : médiane 57 € vs moyenne 85 €
